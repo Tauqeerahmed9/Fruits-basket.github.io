@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Oswald&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway&family=Roboto&display=swap');
+
+:root{
+    --primary-color:rgb(246, 26, 92);
+}
+
+img{
+    border-radius: 5px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.navbar {
+    background-color: white;
+    box-shadow: 0px 7px 15px -9px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 15px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 15px -9px rgba(0,0,0,0.75);
+}
+
+.navbar-brand{
+    font-family: "lobster",sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+    transition: all ease 0.4s;
+    margin:0 10px;
+}
+.nav-link:hover{
+    color: var(--primary-color);
+}
+
+.search{
+    border: 2px solid var(--primary-color);
+    border-radius: 60px;
+    outline: none;
+    
+}
+
+.btn{
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 60px;
+    padding: 0 20px;
+    margin-left: -40px;
+}
+.btn:hover{
+    background-color: var(--primary-color);
+    
+
+}
+.main{
+    background: linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/Images/Landing\ Page.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main h1{
+    font-size: 5rem;
+    color: white;
+    font-family: "lobster",sans-serif;
+}
+.btn1{
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    font-family: "poppins",sans-serif;
+    border-radius: 60px;
+    
+}
+
+.trending h1{
+    font-weight: 700;
+    font-family: "poppins",sans-serif;
+
+}
+.trending h6{
+    font-weight: 500;
+    font-family: "poppins",sans-serif;
+}
+.card{
+    transition: all ease 0.5s;
+}
+.card:hover{
+    transform: translateY(-9px);
+}
+.about h1{
+    font-weight: 700;
+    font-family: "poppins",sans-serif;
+}
+.about h6{
+    font-weight: 500;
+    font-family: "poppins",sans-serif;
+}
+.store h1{
+    font-weight: 700;
+    font-family: "poppins",sans-serif;
+}
+.store h6{
+    font-weight: 500;
+    font-family: "poppins",sans-serif;
+}
+.apple h1{
+    font-weight: 700;
+    font-family: "lobster",sans-serif;
+}
+.apple h6{
+    font-weight: 500;
+    font-family: "poppins",sans-serif;
+}
+
+.apple{
+    background:linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Images/nutrition2.jpg);
+    background-size: cover;
+    height: 80vh;
+   
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.contact h1{
+    font-weight: 700;
+    font-family: "poppins",sans-serif;
+}
+.contact h6{
+    font-weight: 500;
+    font-family: "poppins",sans-serif;
+}
+input,textarea:focus{
+    outline: none;
+    
+}
+.footer h1{
+    font-weight: 700;
+    font-family: "poppins",sans-serif;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer input{
+    height: 45px;
+    width: 55%;
+    margin-top: 10px;
+    padding: 7px 20px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+.footer button{
+    height: 45px;
+    width: 100px;
+    
+}
+
+.footer p{
+    margin: 0;
+
+}
+.footer h5{
+    text-transform: uppercase;
+}
+.fab{
+    font-size: 1.5rem;
+    margin: 20px 10px;
+    transition: all ease 0.4s;
+}
+.fab:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.footer p{
+    font-family: poppins;
+    text-align: center;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .f-menu{
+        margin-top: 30px;
+    }
+    
+}
